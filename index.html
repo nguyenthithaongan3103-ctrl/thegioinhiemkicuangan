@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#fff1f6" />
+  <meta name="description" content="Thế Giới Nhiệm Kì Của Ngân — cửa hàng thời trang pastel xinh xắn." />
+  <title>thegioinhiemkicuangan — Little things, lovely days</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="announcement">♡ Một chút ngọt ngào cho ngày của bạn — freeship đơn từ 499K ♡</div>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="Trang chủ">
+      <span class="brand-mark">n.</span>
+      <span><strong>thegioinhiemkicuangan</strong><small>little things, lovely days</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Mở menu">☰</button>
+    <nav id="mainNav">
+      <a href="#home">Trang chủ</a><a href="#shop">Cửa hàng</a><a href="#story">Về chúng mình</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-button" id="searchFocus" aria-label="Tìm kiếm">⌕</button>
+      <button class="icon-button cart-trigger" id="openCart" aria-label="Mở giỏ hàng">♡ <span id="cartCount">0</span></button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <span class="eyebrow">THE LITTLE PINK EDITION · 2026</span>
+        <h1>Mặc điều bạn thích.<br><em>Yêu chính mình.</em></h1>
+        <p>Những món đồ nhỏ xinh, dịu dàng và dễ phối — dành cho những ngày bạn muốn là chính mình.</p>
+        <a class="primary-button" href="#shop">Khám phá bộ sưu tập <span>↗</span></a>
+        <div class="hero-note"><span class="sparkle">✳</span><span><b>Made for your mood</b><small>Chọn outfit theo cách của bạn</small></span></div>
+      </div>
+      <div class="hero-art">
+        <div class="hero-photo"><img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1000&q=85" alt="Cảm hứng phối đồ thời trang" /></div>
+        <div class="sticker sticker-top">cute<br>but cool ♡</div>
+        <div class="sticker sticker-bottom">your style,<br>your story ✿</div>
+        <div class="hero-orbit"></div>
+      </div>
+    </section>
+
+    <section class="benefits" aria-label="Lợi ích">
+      <div><span>✿</span><p><b>Chọn lọc kỹ càng</b><small>Mẫu xinh, dễ ứng dụng</small></p></div>
+      <div><span>♡</span><p><b>Gói hàng yêu thương</b><small>Chỉn chu trong từng đơn</small></p></div>
+      <div><span>☼</span><p><b>Hỗ trợ tận tình</b><small>Luôn sẵn sàng giải đáp</small></p></div>
+    </section>
+
+    <section class="shop-section" id="shop">
+      <div class="section-heading">
+        <div><span class="eyebrow">A LITTLE SOMETHING FOR YOU</span><h2>Góc đồ <em>đáng yêu</em></h2><p>Tìm thấy món đồ hợp với tâm trạng hôm nay nhé.</p></div>
+        <label class="search-box"><span>⌕</span><input id="searchInput" type="search" placeholder="Tìm áo, váy, phụ kiện..." aria-label="Tìm sản phẩm"></label>
+      </div>
+      <div class="shop-toolbar">
+        <div class="filters" id="filters">
+          <button class="filter active" data-category="all">Tất cả</button>
+          <button class="filter" data-category="tops">Áo xinh</button>
+          <button class="filter" data-category="bottoms">Quần & chân váy</button>
+          <button class="filter" data-category="dresses">Váy liền</button>
+          <button class="filter" data-category="accessories">Phụ kiện</button>
+        </div>
+        <select id="sortSelect" aria-label="Sắp xếp sản phẩm">
+          <option value="featured">Sắp xếp: nổi bật</option><option value="low">Giá thấp đến cao</option><option value="high">Giá cao đến thấp</option>
+        </select>
+      </div>
+      <div class="product-grid" id="productGrid"></div>
+      <p class="empty-state" id="emptyState" hidden>Không tìm thấy món đồ phù hợp. Thử tìm từ khóa khác nha ♡</p>
+    </section>
+
+    <section class="editorial" id="story">
+      <div class="editorial-image"><img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1000&q=85" alt="Trang phục và phụ kiện thời trang tông nhẹ nhàng" /></div>
+      <div class="editorial-copy"><span class="eyebrow">A NOTE FROM NGÂN</span><h2>Phong cách không cần hoàn hảo, chỉ cần là <em>bạn.</em></h2><p>Chúng mình tin rằng một chiếc áo bạn yêu thích, một chiếc nơ nhỏ hay màu hồng dịu dàng cũng có thể khiến ngày bình thường trở nên đặc biệt hơn.</p><p>Cứ thử, cứ phối, cứ vui — bạn chính là phiên bản đẹp nhất của phong cách mình chọn.</p><a href="#shop" class="text-link">Tìm món đồ dành cho bạn ↗</a></div>
+    </section>
+
+    <section class="newsletter">
+      <span class="newsletter-flower">✿</span><span class="eyebrow">A LITTLE LOVE LETTER</span>
+      <h2>Nhận chút tin vui <em>từ chúng mình</em></h2>
+      <p>Đăng ký để cập nhật bộ sưu tập mới và những ưu đãi xinh xắn.</p>
+      <form id="newsletterForm"><input type="email" id="emailInput" placeholder="Email của bạn..." required aria-label="Email của bạn"><button type="submit">Đăng ký ♡</button></form>
+      <small id="newsletterMessage" role="status"></small>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="brand footer-brand" href="#"><span class="brand-mark">n.</span><span><strong>thegioinhiemkicuangan</strong><small>little things, lovely days</small></span></a>
+    <p>Made with ♡ and a little bit of pink.</p>
+    <div class="footer-links"><a href="#shop">Cửa hàng</a><a href="#story">Câu chuyện</a><a href="mailto:hello@example.com">Liên hệ</a></div>
+    <small>© 2026 thegioinhiemkicuangan · Demo cửa hàng trực tuyến</small>
+  </footer>
+
+  <div class="overlay" id="cartOverlay" hidden></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-label="Giỏ hàng" aria-hidden="true">
+    <div class="drawer-heading"><div><span class="eyebrow">YOUR LITTLE FINDS</span><h2>Giỏ hàng <em>♡</em></h2></div><button id="closeCart" class="close-button" aria-label="Đóng giỏ hàng">×</button></div>
+    <div id="cartItems" class="cart-items"></div>
+    <div id="cartFooter" class="cart-footer"><div class="subtotal"><span>Tạm tính</span><strong id="cartTotal">0₫</strong></div><small>Phí vận chuyển được tính khi xác nhận đơn.</small><button id="checkoutButton" class="primary-button checkout-button">Tiến hành đặt hàng ↗</button></div>
+  </aside>
+
+  <dialog id="checkoutDialog" class="checkout-dialog">
+    <form id="checkoutForm">
+      <button type="button" id="closeCheckout" class="close-button dialog-close" aria-label="Đóng">×</button>
+      <span class="eyebrow">ALMOST YOURS ♡</span><h2>Thông tin <em>đặt hàng</em></h2>
+      <p class="dialog-note">Đây là bản demo: biểu mẫu không thu tiền và chưa gửi đơn đến cửa hàng.</p>
+      <label>Họ và tên<input name="name" required placeholder="Tên người nhận"></label>
+      <label>Số điện thoại<input name="phone" required inputmode="tel" pattern="[0-9+ .()-]{9,}" placeholder="Số điện thoại liên hệ"></label>
+      <label>Địa chỉ nhận hàng<textarea name="address" required rows="2" placeholder="Số nhà, đường, phường/xã..."></textarea></label>
+      <label>Ghi chú (nếu có)<textarea name="note" rows="2" placeholder="Màu sắc, size hoặc lời nhắn..."></textarea></label>
+      <div class="subtotal"><span>Tổng đơn hàng</span><strong id="checkoutTotal">0₫</strong></div>
+      <button type="submit" class="primary-button checkout-button">Xác nhận đơn demo ♡</button>
+    </form>
+  </dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
