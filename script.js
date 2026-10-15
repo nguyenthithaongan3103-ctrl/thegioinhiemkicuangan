@@ -1,4 +1,14 @@
 const products = [
+ {id:9,name:"Áo len Croptop Dâu",category:"tops",categoryName:"Áo xinh",price:199000,oldPrice:239000,tag:"NEW IN",image:"https://images.unsplash.com/photo-1576566588028-4147f3842f27?auto=format&fit=crop&w=700&q=80",alt:"Áo len nữ phong cách trẻ trung"},
+ {id:10,name:"Đầm Hồng Công Chúa",category:"dresses",categoryName:"Váy liền",price:399000,oldPrice:459000,tag:"BEST SELLER",image:"https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=700&q=80",alt:"Đầm nữ màu sáng phong cách dịu dàng"},
+ {id:11,name:"Quần Jeans Daily",category:"bottoms",categoryName:"Quần & chân váy",price:329000,oldPrice:null,tag:"EASY WEAR",image:"https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=700&q=80",alt:"Quần jeans phong cách thường ngày"},
+ {id:12,name:"Túi Xách Pinky",category:"accessories",categoryName:"Phụ kiện",price:259000,oldPrice:299000,tag:"JUST IN",image:"https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=700&q=80",alt:"Túi xách thời trang nữ"}
+
+ {id:9,name:"Áo len Croptop Dâu",category:"tops",categoryName:"Áo xinh",price:199000,oldPrice:239000,tag:"NEW IN",image:"https://images.unsplash.com/photo-1576566588028-4147f3842f27?auto=format&fit=crop&w=700&q=80",alt:"Áo len nữ phong cách trẻ trung"},
+ {id:10,name:"Đầm Hồng Công Chúa",category:"dresses",categoryName:"Váy liền",price:399000,oldPrice:459000,tag:"BEST SELLER",image:"https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=700&q=80",alt:"Đầm nữ màu sáng phong cách dịu dàng"},
+ {id:11,name:"Quần Jeans Daily",category:"bottoms",categoryName:"Quần & chân váy",price:329000,oldPrice:null,tag:"EASY WEAR",image:"https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=700&q=80",alt:"Quần jeans phong cách thường ngày"},
+ {id:12,name:"Túi Xách Pinky",category:"accessories",categoryName:"Phụ kiện",price:259000,oldPrice:299000,tag:"JUST IN",image:"https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=700&q=80",alt:"Túi xách thời trang nữ"}
+
  {id:1,name:"Áo cardigan Mây Hồng",category:"tops",categoryName:"Áo xinh",price:289000,oldPrice:329000,tag:"BEST SELLER",image:"https://images.unsplash.com/photo-1576566588028-4147f3842f27?auto=format&fit=crop&w=700&q=80",alt:"Áo cardigan phong cách nhẹ nhàng"},
  {id:2,name:"Váy hoa Nàng Thơ",category:"dresses",categoryName:"Váy liền",price:459000,oldPrice:null,tag:"NEW IN",image:"https://images.unsplash.com/photo-1612336307429-8a898d10e223?auto=format&fit=crop&w=700&q=80",alt:"Váy nữ phong cách dịu dàng"},
  {id:3,name:"Chân váy Pleats",category:"bottoms",categoryName:"Quần & chân váy",price:319000,oldPrice:null,tag:"LOVED",image:"https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?auto=format&fit=crop&w=700&q=80",alt:"Trang phục chân váy nữ"},
